@@ -19,7 +19,7 @@ spec:
       compute: managedamazon-vpc
   resourceConfig:
     providerConfigName: default
-    region: eu-west-1
+    region: eu-west-2
   parameters:
     vpcName: aws-provider-vpc
     vpccidrBlock: "10.20.0.0/16"
