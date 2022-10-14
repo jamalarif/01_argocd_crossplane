@@ -3,6 +3,9 @@ apiVersion: eks.jamal.io/v1beta1
 kind: EKSCluster
 metadata:
   name: crossplane-cluster
+  annotations:
+    argocd.argoproj.io/sync-wave: "300"   
+    argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 spec:
   parameters:
     region: us-west-2
