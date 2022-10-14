@@ -7,6 +7,8 @@ kind: amazonVpc
 metadata:
   name: xplane-amazon-vpc
   namespace: default
+  annotations:
+    argocd.argoproj.io/sync-wave: "30"  
 spec:
   compositionSelector:
     matchLabels:
