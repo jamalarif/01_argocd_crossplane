@@ -4,6 +4,8 @@ apiVersion: apiextensions.crossplane.io/v1
 kind: Composition
 metadata:
   name: xvpcs.network.awsblueprints.io
+  annotations:
+    argocd.argoproj.io/sync-wave: "10"  
   labels:
     awsblueprints.io/provider: aws
     awsblueprints.io/environment: dev
