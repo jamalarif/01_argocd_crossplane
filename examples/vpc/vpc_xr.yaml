@@ -22,5 +22,5 @@ spec:
     region: eu-west-2
   parameters:
     vpcName: aws-provider-vpc
-    vpccidrBlock: "192.168.1.0/24"
+    vpccidrBlock: "10.0.0.0/16"
     amazonProvidedIpv6CidrBlock: true
