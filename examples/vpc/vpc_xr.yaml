@@ -23,4 +23,4 @@ spec:
   parameters:
     vpcName: aws-provider-vpc
     vpccidrBlock: "192.168.1.0/24"
-    amazonProvidedIpv6CidrBlock: true
+    amazonProvidedIpv6CidrBlock: false
